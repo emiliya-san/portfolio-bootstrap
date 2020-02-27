@@ -52,8 +52,6 @@
 @media (min-width: 920px) {
     .right-chapter {
         max-width: 75%;
-        float: right;
-        justify-content: flex-end;
     }
 }
 
@@ -90,4 +88,8 @@
     .second-text-block {
         margin-top: 40px;
     }
+}
+
+.permanent-space {
+    margin-top: 20px;
 }

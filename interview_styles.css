@@ -1,0 +1,93 @@
+.grey {
+    background-color: #0F0A4F;
+    padding-left: -20px;
+    padding-right: -20px;
+}
+
+.white-text {
+    color: white;
+}
+
+.pink-text {
+    color: #B440A3;
+}
+
+.blue-background {
+    background-color: #E9FDFF;
+}
+
+.h2 {
+    color: #189DE7;
+}
+
+
+
+.wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media (min-width: 720px) {
+    .wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 920px) {
+    .wrapper {
+    }
+}
+
+.right-chapter {
+    max-width: 100%;
+}
+
+@media (min-width: 720px) {
+    .right-chapter {
+    }
+}
+
+@media (min-width: 920px) {
+    .right-chapter {
+        max-width: 75%;
+        float: right;
+        justify-content: flex-end;
+    }
+}
+
+.text-block-right {
+    margin: 0px 10px 0 10px;
+    max-width: 100%;
+}
+
+@media (min-width: 720px) {
+    .text-block-right {
+        margin: 0;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 920px) {
+    .text-block-right {
+        margin: 10px 0px 0 0px;
+        max-width: 100%;
+    }
+}
+
+.second-text-block {
+    margin-top: 20px;
+}
+
+@media (min-width: 720px) {
+    .second-text-block {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 920px) {
+    .second-text-block {
+        margin-top: 40px;
+    }
+}

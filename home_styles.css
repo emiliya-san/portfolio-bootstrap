@@ -93,13 +93,12 @@ body {
 .footnote {
     font-size: 14px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     font-family: "Open Sans", Arial, sans-serif;
     font-style: normal;
     margin-top: 60px;
     margin-bottom: 20px;
     color: #39B1F1;
-    font-weight: bold;
 }
 
 @media (min-width: 720px) {

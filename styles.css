@@ -430,7 +430,7 @@ ul.dot > li:before {
     display: block;
 }
 
-@media (min-width: 414px) {
+@media (min-width: 414px) and (-webkit-device-pixel-ratio: 3) {
     .extrasmall-only {
         display: none;
     }

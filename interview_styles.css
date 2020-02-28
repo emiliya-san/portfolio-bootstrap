@@ -109,3 +109,16 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.mobile-only {
+    display: none;
+}
+
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .mobile-only {
+        display: block;
+    }
+}

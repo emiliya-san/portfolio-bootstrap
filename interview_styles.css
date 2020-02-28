@@ -20,12 +20,16 @@
     color: #189DE7;
 }
 
-
-
 .wrapper {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 20px;
+}
+
+@media (max-device-width: 736px) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
 }
 
 @media (min-width: 720px) {
@@ -60,6 +64,13 @@
     max-width: 100%;
 }
 
+@media (max-device-width: 736px) {
+    .text-block-right {
+        margin: 0px 10px 0 10px;
+        max-width: 100%;
+    }
+}
+
 @media (min-width: 720px) {
     .text-block-right {
         margin: 0;
@@ -68,6 +79,12 @@
 
 .second-text-block {
     margin-top: 20px;
+}
+
+@media (max-device-width: 736px) {
+    .second-text-block {
+        margin-top: 20px;
+    }
 }
 
 @media (min-width: 720px) {

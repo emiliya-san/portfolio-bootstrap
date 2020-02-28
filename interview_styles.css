@@ -138,3 +138,13 @@
         display: none;
     }
 }
+
+.full-screen {
+    display: none;
+}
+
+@media (min-width: 920px) {
+    .full-screen {
+        display: block;
+    }
+}

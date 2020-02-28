@@ -26,7 +26,7 @@
     margin-top: 20px;
 }
 
-@media (max-device-width: 736px) {
+@media (max-device-height: 736px) and (-webkit-min-device-pixel-ratio: 3) {
         padding-top: 20px;
         padding-bottom: 20px;
         margin-top: 20px;
@@ -64,7 +64,7 @@
     max-width: 100%;
 }
 
-@media (max-device-width: 736px) {
+@media (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
     .text-block-right {
         margin: 0px 10px 0 10px;
         max-width: 100%;
@@ -81,7 +81,7 @@
     margin-top: 20px;
 }
 
-@media (max-device-width: 736px) {
+@media (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
     .second-text-block {
         margin-top: 20px;
     }

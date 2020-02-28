@@ -440,7 +440,7 @@ ul.dot > li:before {
     display: none;
 }
 
-@media (min-width: 414px) {
+@media (min-width: 414px) (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
     .small-only {
         display: block;
     }
@@ -480,6 +480,13 @@ ul.dot > li:before {
 
 .small-and-extrasmall {
     display: block;
+}
+
+
+@media (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    .small-and-extrasmall {
+        display: block;
+    }
 }
 
 @media (min-width: 720px) {

@@ -483,11 +483,22 @@ ul.dot > li:before {
 }
 
 
-@media (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 736px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 3)
+{
     .small-and-extrasmall {
         display: block;
     }
 }
+
+/*@media (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    .small-and-extrasmall {
+        display: block;
+    }
+}*/
 
 @media (min-width: 720px) {
     .small-and-extrasmall {

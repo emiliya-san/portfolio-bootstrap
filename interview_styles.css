@@ -27,9 +27,11 @@
 }
 
 @media (max-device-height: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    .wrapper {
         padding-top: 20px;
         padding-bottom: 20px;
         margin-top: 20px;
+    }
 }
 
 @media (min-width: 720px) {

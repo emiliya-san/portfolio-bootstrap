@@ -19,13 +19,13 @@
 	line-height: 20px;
 	font-family: "Open Sans";
 	font-style: normal;
-	max-width: 95%;
+	width: 195%;
 	text-align: left;
 	display: inline-block;
 	margin: 20px 10px 0px 10px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .center-statement {
         font-size: 16px;
         line-height: 24px;
@@ -40,6 +40,16 @@
         line-height: 28px;
         max-width: 50%;
         margin: 40px 0px 0px 0px;
+    }
+}
+
+.statement-set {
+    text-align: left;
+}
+
+@media (min-width: 720px) {
+    .statement-set {
+        text-align: center;
     }
 }
 

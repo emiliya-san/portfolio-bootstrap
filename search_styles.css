@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .upper-spacing {
         margin: 10px 0px 0px 0px;
     }
@@ -64,7 +64,7 @@
 	align-items: center;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .wrapper-cut {
         padding: 10px;
         margin: 10px 0px 0px 0px;
@@ -86,7 +86,7 @@
     padding-top: 40px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .wrapper-spacing {
         padding-top: 40px;
     }
@@ -105,7 +105,7 @@
     margin-right: 10px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .text-cut {
         max-width: 90%;
         margin-left: 0;
@@ -241,7 +241,7 @@ ul.dot > li:before {
     margin-bottom: 5px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .margin-bottom {
         margin-bottom: 10px;
     }
@@ -252,7 +252,7 @@ ul.dot > li:before {
     margin-bottom: 10px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .spacing {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -264,7 +264,7 @@ ul.dot > li:before {
     max-width: 100%;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .panel {
         max-width: 100%;
     }
@@ -291,7 +291,7 @@ ul.dot > li:before {
     padding-top: 30px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .second-panel-spacing {
         padding-top: 30px;
     }
@@ -307,7 +307,7 @@ ul.dot > li:before {
     margin: 10px 10px 20px 10px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .text-panel-top {
         margin: 00px 0px 20px 0px;
     }
@@ -323,7 +323,7 @@ ul.dot > li:before {
     margin: 30px 10px 10px 10px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .text-panel-bottom {
         margin: 30px 0px 10px 0px;
     }
@@ -339,7 +339,7 @@ ul.dot > li:before {
     margin: 20px 10px 10px 10px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .text-line-bottom {
         margin: 20px 0px 10px 0px;
     }
@@ -355,7 +355,7 @@ ul.dot > li:before {
     margin-top: 20px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .text-block-second {
         margin-top: 30px;
     }
@@ -377,7 +377,7 @@ ul.dot > li:before {
     margin-right: 10px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .summary-line {
         align-items: center;
         margin-left: 0;
@@ -390,14 +390,14 @@ ul.dot > li:before {
     margin-right: 8px;
 }
 
-@media (min-width: 414px) and (-webkit-device-pixel-ratio: 3) {
+@media (min-width: 414px) {
     .summary-screenshot {
         max-width: 68%;
         margin-right: 15px;
     }
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .summary-screenshot {
         max-width: 71%;
         margin-right: 35px;
@@ -418,7 +418,7 @@ ul.dot > li:before {
     height: auto;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .icon {
         margin-left: 15px;
         margin-right: 15px;
@@ -461,14 +461,14 @@ ul.dot > li:before {
     height: 65px;
 }
 
-@media (min-width: 414px) and (-webkit-device-pixel-ratio: 3) {
+@media (min-width: 414px) {
     .plate {
         width: 80px;
         height: 80px;
     }
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .plate {
         width: 107px;
         height: 107px;
@@ -489,7 +489,7 @@ ul.dot > li:before {
     margin-bottom: 10px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .casserole {
         width: 58px;
         height: 74px;
@@ -513,7 +513,7 @@ ul.dot > li:before {
     margin-top: -15px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .cupcakes {
         width: 154px;
         height: 70px;
@@ -535,7 +535,7 @@ ul.dot > li:before {
     height: 35px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .board {
         width: 83px;
         height: 48px;
@@ -560,7 +560,7 @@ ul.dot > li:before {
     height: 50px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .cake {
         width: 66px;
         height: 75px;
@@ -579,7 +579,7 @@ ul.dot > li:before {
     height: 50px;
 }
 
-@media (min-width: 720px) and (-webkit-device-pixel-ratio: 1) {
+@media (min-width: 720px) {
     .icecream {
         width: 71px;
         height: 65px;

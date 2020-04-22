@@ -5,3 +5,136 @@ body {
 .h2 {
     margin-top: 20px;
 }
+
+.intro-block {
+    /*float: left;*/
+    max-width: 100%;
+    vertical-align: top;
+}
+
+@media (min-width: 720px) {
+    .intro-block {
+        /*float: left;*/
+        width: 60%;
+        vertical-align: top;
+    }
+}
+
+@media (min-width: 920px) {
+    .intro-block {
+        float: left;
+        width: 68%;
+        vertical-align: top;
+    }
+}
+
+.photo-block {
+    margin: 20px 10px 40px 10px;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+@media (min-width: 720px) {
+    .photo-block {
+        float: right;
+        margin: 0 0 20px 20px;
+        display: inline-block;
+        vertical-align: top;
+        max-width: 38%;
+    }
+}
+
+@media (min-width: 920px) {
+    .photo-block {
+        float: right;
+        margin: 0 0 20px 20px;
+        vertical-align: top;
+        width: 30%;
+    }
+}
+
+.content-block {
+    width: 100%;
+}
+
+@media (min-width: 720px) {
+    .content-block {
+        width: 100%;
+    }
+}
+
+@media (min-width: 920px) {
+    .content-block {
+        width: 100%;
+    }
+}
+
+.left-panel {
+
+}
+
+@media (min-width: 720px) {
+    .left-panel {
+
+    }
+}
+
+@media (min-width: 920px) {
+    .left-panel {
+        width: 70%;
+    }
+}
+
+
+.right-panel {
+
+}
+
+@media (min-width: 720px) {
+    .right-panel {
+
+    }
+}
+
+@media (min-width: 920px) {
+    .right-panel {
+        width: 30%;
+    }
+}
+
+.text-block {
+    margin: 0px 10px 0 10px;
+    max-width: 100%;
+}
+
+@media (min-width: 720px) {
+    .text-block {
+        margin: 0;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 920px) {
+    .text-block {
+        margin: 10px 0px 0 0px;
+        max-width: 100%;
+    }
+}
+
+.photo {
+    max-width: 100%;
+}
+
+@media (min-width: 720px) {
+    .photo {
+        max-width: 304px;*/
+        /*max-width: 44%;*/
+    }
+}
+
+@media (min-width: 920px) {
+    .photo {
+        max-width: 360px;
+        /*max-width: 30%;*/
+    }
+}

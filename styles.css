@@ -527,7 +527,7 @@ ul.dot > li:before {
 
 @media (min-width: 720px) {
     .logo-spacing {
-        margin-left: 16px;
+        margin-left: 0;
     }
 }
 

@@ -142,7 +142,6 @@ body {
 @media (min-width: 920px) {
     .photo {
         max-width: 360px;
-        /*max-width: 30%;*/
     }
 }
 
@@ -170,4 +169,10 @@ body {
     .logo-margin {
         margin-bottom: 40px;
     }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
 }

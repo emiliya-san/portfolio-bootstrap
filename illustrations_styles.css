@@ -56,7 +56,7 @@
 @media (min-width: 920px) {
     .first-cut {
         margin: 0;
-        max-width: 33%;
+        max-width: 45%;
         align-items: center;
     }
 }
@@ -82,7 +82,7 @@
 @media (min-width: 920px) {
     .second-cut {
         margin: 0;
-        max-width: 59%;
+        max-width: 100%;
         align-items: center;
     }
 }
@@ -98,23 +98,23 @@
 }
 
 .wrapper-spacing {
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 @media (min-width: 720px) {
     .wrapper-spacing {
-        padding-top: 40px;
+        padding-top: 20px;
     }
 }
 
 @media (min-width: 920px) {
     .wrapper-spacing {
-        padding-top: 40px;
+        padding-top: 20px;
     }
 }
 
 .half-cut {
-    max-width: 48%;
+    max-width: 50%;
 }
 
 @media (min-width: 720px) {
@@ -127,4 +127,8 @@
     .half-cut {
 
     }
+}
+
+.sample-img {
+    margin-bottom: 20px;
 }

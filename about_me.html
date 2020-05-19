@@ -17,7 +17,9 @@
 
         <div class="logo-spacing" id="myHeader">
             <a href="/" title="home">
-                <img class="logo logo-margin" alt="home" src="img/logos/logo_cyan.png" />
+                <div style="width: 100%;">
+                    <img class="logo logo-margin" alt="home" src="img/logos/logo_cyan.png" />
+                </div>
             </a>
         </div>
 
@@ -88,4 +90,20 @@
             <div class="h5 homepage-link center">Back to homepage &rarr;</div>
         </a>
     </div>
+
+    <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
 </body>

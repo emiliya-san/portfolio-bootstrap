@@ -47,7 +47,7 @@
 @media (min-width: 720px) {
     .first-cut {
         padding: 10px;
-        margin: 10px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
         max-width: 45%;
         align-items: center;
     }
@@ -56,14 +56,22 @@
 @media (min-width: 920px) {
     .first-cut {
         margin: 0;
-        max-width: 45%;
+        max-width: 35.6%;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .first-cut {
+        margin: 0;
+        max-width: 120%;
         align-items: center;
     }
 }
 
 .second-cut {
     padding: 5px;
-    margin: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
     background-color: white;
     box-shadow: 0px 2px 10px 5px rgba(158, 157, 157, 0.5);
     max-width: 1000%;
@@ -73,7 +81,7 @@
 @media (min-width: 720px) {
     .second-cut {
         padding: 10px;
-        margin: 10px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
         max-width: 90%;
         align-items: center;
     }
@@ -82,7 +90,15 @@
 @media (min-width: 920px) {
     .second-cut {
         margin: 0;
-        max-width: 100%;
+        max-width: 61.5%;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .second-cut {
+        margin: 0;
+        max-width: 63%;
         align-items: center;
     }
 }
@@ -151,7 +167,7 @@
 
 @media (min-width: 720px) {
     .h4 {
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
 }
 
@@ -217,5 +233,15 @@
     .board-study {
         width: 80%;
         max-width: 970px;
+    }
+}
+
+.plain-img-full-width {
+    margin: 0;
+}
+
+@media (min-width: 720px) {
+    .plain-img-full-width {
+        margin: 10px 0 0 0;
     }
 }

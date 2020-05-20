@@ -245,3 +245,13 @@
         margin: 10px 0 0 0;
     }
 }
+
+.text-wide {
+
+}
+
+@media (min-width: 720px) {
+    .text-wide {
+        max-width: 100%
+    }
+}

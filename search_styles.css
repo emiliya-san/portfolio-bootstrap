@@ -501,7 +501,7 @@ ul.dot > li:before {
     .casserole {
         width: 106px;
         height: 135px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         margin-top: -60px;
     }
 }
@@ -546,6 +546,7 @@ ul.dot > li:before {
     .board {
         width: 152px;
         height: 88px;
+        margin-bottom: 20px;
     }
 }
 

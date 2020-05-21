@@ -23,7 +23,7 @@ body {
 @media (min-width: 920px) {
     .intro-block {
         float: left;
-        width: 66%;
+        width: 58%;
         vertical-align: top;
     }
 }
@@ -50,9 +50,9 @@ body {
 @media (min-width: 920px) {
     .photo-block {
         float: right;
-        margin: 0 0 20px 20px;
+        margin: 0 0 40px 80px;
         vertical-align: top;
-        width: 30%;
+        width: 32%;
     }
 }
 

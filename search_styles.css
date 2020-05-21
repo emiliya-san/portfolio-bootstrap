@@ -164,6 +164,10 @@ margin-right: auto;
 display: block;
 }
 
+.grey-color {
+    background-color: #F8EEEA;
+}
+
 .grey {
     /*background-color: #D3D3D3;
     background-color: #EAEAEA;*/

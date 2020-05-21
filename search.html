@@ -10,17 +10,38 @@
 		<link rel="icon" href="img/logos/logo_orange.png"/>
 		<link rel="stylesheet" href="styles.css"/>
 		<link rel="stylesheet" href="search_styles.css"/>
+		<script type="text/javascript" src="scroll.js"></script>
 	</head>
 	<body>
+
+	<div class="grey-color" id="myHeader">
+		<div class="grey">
+			<div class="container no-padding" style="padding-top: 20px; padding-bottom: 20px;">
+				<a href="/" title="home">
+					<div class="logo-spacing">
+						<img class="logo" style="margin-top: 0;" alt="home" src="img/logos/logo_orange.png" />
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
 
 		<div class="grey">
 			<div class="container no-padding">
 
-				<a href="/" title="home">
-					<div class="logo-spacing">
-						<img class="logo" alt="home" src="img/logos/logo_orange.png" />
-					</div>
-				</a>
+<!--				<a href="/" title="home">-->
+<!--					<div class="logo-spacing">-->
+<!--						<img class="logo" alt="home" src="img/logos/logo_orange.png" />-->
+<!--					</div>-->
+<!--				</a>-->
+
+
+
+
+
+
+
+
 
 				<div class="center">
 					<h1 class="h1">How to easily navigate 40,000 products?</h1>
@@ -425,6 +446,22 @@
 				<div class="h5 homepage-link center">Back to homepage &rarr;</div>
 			</a>
 		</div>
+
+
+		<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 
 </body>
 </html>

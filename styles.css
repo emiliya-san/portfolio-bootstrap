@@ -9,7 +9,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	line-height: 38px;
-	margin: 20px 0px 0px 0px;
+	margin: 60px 0px 0px 0px;
 	text-align: center;
 	max-width: 90%;
 	display: inline-block;
@@ -19,7 +19,7 @@ body {
     .h1 {
     	font-size: 44px;
     	line-height: 58px;
-	    margin: 20px 0px 20px 0px;
+	    margin: 100px 0px 20px 0px;
 	    max-width: 75%;
     }
 }
@@ -28,7 +28,7 @@ body {
     .h1 {
     	font-size: 56px;
     	line-height: 72px;
-	    margin: 20px 0px 20px 0px;
+	    margin: 140px 0px 20px 0px;
 	    max-width: 70%;
     }
 }
@@ -538,24 +538,27 @@ ul.dot > li:before {
 }
 
 .logo {
-    width: 39px;
+    width: 35px;
     height: auto;
-    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 @media (min-width: 720px) {
     .logo {
-        width: 56px;
+        width: 45px;
         height: auto;
-        margin-top: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
 @media (min-width: 920px) {
     .logo {
-        width: 73px;
+        width: 50px;
         height: auto;
-        margin-top: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -579,4 +582,86 @@ ul.dot > li:before {
   position: fixed;
   top: 0;
   width: 100%
+}
+
+
+
+.trigger-menu-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0px; // was 10
+  z-index: 2;
+  background: #F8EEEA;
+  transition: transform 0.4s;
+}
+
+.page-header .trigger-menu {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+.page-header .trigger-menu svg {
+  fill: var(--white);
+  margin-right: 5px;
+  transition: transform 0.3s;
+}
+
+.page-header .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  text-align: center;
+  padding: 15vh 0 5vh;
+  overflow: auto;
+  z-index: 1;
+}
+
+.page-header .menu a {
+  font-size: 3rem;
+}
+
+.page-header .sub-menu a {
+  font-size: 1.5rem;
+}
+
+.page-header .trigger-menu svg {
+  transition: transform 0.3s;
+}
+
+.menu-open {
+  overflow: hidden;
+}
+
+.menu-open .page-header .menu {
+  display: block;
+}
+
+.menu-open .page-header svg {
+  transform: rotate(45deg);
+}
+
+.trigger-menu-wrapper {
+  transition: transform 0.4s;
+}
+
+.scroll-down .trigger-menu-wrapper {
+  transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up .trigger-menu-wrapper {
+  transform: none;
+}
+
+.scroll-up:not(.menu-open) .trigger-menu-wrapper {
+  background: var(--lightpurple);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
 }

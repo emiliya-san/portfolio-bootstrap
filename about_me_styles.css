@@ -2,8 +2,26 @@ body {
   background-color: #ECFFFB;
 }
 
+.grey {
+    background-color: #ECFFFB;
+    padding-left: -20px;
+    padding-right: -20px;
+}
+
 .h2 {
-    margin-top: 20px;
+    margin-top: 50px;
+}
+
+@media (min-width: 720px) {
+    .h2 {
+        margin-top: 90px;
+    }
+}
+
+@media (min-width: 920px) {
+    .h2 {
+        margin-top: 110px;
+    }
 }
 
 .intro-block {
@@ -167,7 +185,7 @@ body {
 
 @media (min-width: 920px) {
     .logo-margin {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 }
 

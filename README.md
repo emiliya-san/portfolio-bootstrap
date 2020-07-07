@@ -19,3 +19,11 @@ A [Bootstrap 4](https://getbootstrap.com/) start up project for [Github Pages](h
 ## License
 
 [See the license file.](./LICENSE.md)
+
+
+Command: sass scss/bootstrap.scss:css/bootstrap.css
+run from: cd ~/Documents/UX/portfolio_site/bootstrap-4-src/
+
+file I've modified(added): _custom_variables.scss
+
+Did I use Anima plugin?
